@@ -50,10 +50,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.carriersetup.vzw_consent_page=true
 
-# Use gestures by default
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-
 # Turn off storage manager
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=false
